@@ -25,7 +25,7 @@
 
                         <div class="col-md-6">
                             <label for="name">رنگ پس زمینه</label>
-                            <input type="text" class="form-control" placeholder="کد رنگ را وارد کنید" id="colorcode" name="colorcode"><br>
+                            <input type="color" class="form-control" placeholder="کد رنگ را وارد کنید" id="colorcode" name="colorcode"><br>
                         </div>
 
                         <div class="col-md-6">

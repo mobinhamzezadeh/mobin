@@ -29,8 +29,9 @@
 
                     <div class="col-md-6">
                         <label for="name">رنگ پس زمینه</label>
-                        <input type="text" placeholder="کد رنگ را وارد کنید"  value="{{$category->colorcode}}" class="form-control" id="colorcode" name="colorcode">
+                        <input type="color" placeholder="کد رنگ را وارد کنید"  value="{{$category->colorcode}}" class="form-control" id="colorcode" name="colorcode">
                     </div>
+
 
                     <div class="col-md-6">
                         @if($category->image == !null)
